@@ -6,7 +6,7 @@ import Home from './components/pages/index.tsx'
 import { ChakraProvider, defaultSystem } from '@chakra-ui/react'
 
 const rotas = createBrowserRouter(
-  [{path: '/', element:<Home/>}], { basename: '../' }
+  [{path: '/', element:<Home/>}]
 )
 
 createRoot(document.getElementById('root')!).render(
